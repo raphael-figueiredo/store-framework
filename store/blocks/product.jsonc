@@ -25,14 +25,14 @@
       "preventVerticalStretch": "false"
     },
     "children": [
+      "flex-layout.row#qty-sku",
       "product-name",
       "product-identifier.product",
       "product-price",
-      "buy-button",
-      "flex-layout.row"
+      "buy-button"
     ]
   },
-  "flex-layout.row": {
+  "flex-layout.row#qty-sku": {
     "children": [
       "sku-selector",
       "product-quantity",
