@@ -50,7 +50,7 @@
   },
   "sku-selector": {
     "props": {
-      "initialSelection": "empty",
+      "initialSelection": "0",
       "showVariationsLabels": true,
       "showVariationsErrorMessage": true
     }
