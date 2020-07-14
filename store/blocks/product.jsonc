@@ -29,10 +29,10 @@
       "product-identifier.product",
       "product-price",
       "buy-button",
-      "flex-layout.row#qty-sku"
+      "flex-layout.row"
     ]
   },
-  "flex-layout.row#qty-sku": {
+  "flex-layout.row": {
     "children": [
       "sku-selector",
       "product-quantity",
