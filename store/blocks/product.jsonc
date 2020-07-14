@@ -38,13 +38,19 @@
   "flex-layout.row#qty-sku": {
     "children": [
       "sku-selector",
-      "product-quantity"            
+      "product-quantity",
+      "shipping-simulator"       
     ]
   },
   "product-price": {
     "props": {
       "showSavings": true,
       "showListPrice": true
+    }
+  },
+  "shipping-simulator": {
+    "props": {
+      "skuID": "342"
     }
   }
  
