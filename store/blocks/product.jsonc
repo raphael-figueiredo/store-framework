@@ -29,8 +29,8 @@
       "product-name",
       "product-identifier.product",
       "product-price",
-      "flex-layout.row#qty-sku",
-      "buy-button"
+      "flex-layout.row#qty-sku"
+      
     ]
   },
   "flex-layout.row#qty-sku": {
