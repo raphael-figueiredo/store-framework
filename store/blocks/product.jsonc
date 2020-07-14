@@ -4,7 +4,8 @@
       "breadcrumb",
       "flex-layout.row#main",
       "flex-layout.row#qty-sku",
-      "shipping-simulator"
+      "shipping-simulator",
+      "shelf.relatedProducts"
     ]
   },
   "flex-layout.row#main": {
@@ -18,7 +19,13 @@
   },
   "flex-layout.col#left": {
     "children": [
-      "product-images"
+      "stack-layout#brand"
+    ]
+  },
+  "stack-layout#brand": {
+    "children": [
+      "product-images",
+      "product-brand"
     ]
   },
   "flex-layout.col#right": {
@@ -52,6 +59,17 @@
   "shipping-simulator": {
     "props": {
       "skuID": "342"
+    }
+  },
+  "product-brand": {
+    "props": {
+      "displayMode": "logo",
+      "height":"30"
+    }
+  },
+  "sku-selector":{
+    "props":{
+      "initialSelection":"empty"
     }
   }
  
