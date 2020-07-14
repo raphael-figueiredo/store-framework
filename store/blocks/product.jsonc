@@ -3,7 +3,6 @@
     "children": [
       "breadcrumb",
       "flex-layout.row#main",
-      "flex-layout.row#qty-sku",
       "shelf.relatedProducts"
     ]
   },
@@ -68,7 +67,8 @@
   },
   "sku-selector":{
     "props":{
-      "initialSelection":"empty"
+      "initialSelection":"empty",
+      "showVariationsLabels":"true"
     }
   }
  
