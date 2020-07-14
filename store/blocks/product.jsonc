@@ -54,11 +54,7 @@
       "showListPrice": true
     }
   },
-  "shipping-simulator": {
-    "props": {
-      "skuID": "342"
-    }
-  },
+  
   "product-brand": {
     "props": {
       "displayMode": "logo",
@@ -69,7 +65,8 @@
     "props": {
       "initialSelection": "empty",
       "showVariationsLabels": true,
-      "showVariationsErrorMessage": true
+      "showVariationsErrorMessage": true,
+      "displayMode":"default"
     }
   }
  
