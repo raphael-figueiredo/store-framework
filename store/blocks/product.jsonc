@@ -65,11 +65,11 @@
       "height":"30"
     }
   },
-  "sku-selector":{
-    "props":{
-      "initialSelection":"empty",
-      "showVariationsLabels":"true",
-      "showVariationsErrorMessage":"true"
+  "sku-selector": {
+    "props": {
+      "initialSelection": "empty",
+      "showVariationsLabels": true,
+      "showVariationsErrorMessage": true
     }
   }
  
