@@ -4,7 +4,6 @@
       "breadcrumb",
       "flex-layout.row#main",
       "flex-layout.row#qty-sku",
-      "shipping-simulator",
       "shelf.relatedProducts"
     ]
   },
