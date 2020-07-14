@@ -6,18 +6,17 @@
       "shelf",
       "slider-layout#home",
       "responsive-layout",
-      "responsive-layout#desktop",
-      "responsive-layout#mobile"
+      "responsive-layout.desktop#desktop",
+      "responsive-layout.mobile#mobile"
     ]
   },
-  "responsive-layout#desktop": {
+  "responsive-layout.desktop#desktop": {
     "children": ["image#desktop"]
   },
   
-  "responsive-layout#mobile": {
+  "responsive-layout.mobile#mobile": {
     "children": ["image#mobile"]
   },
- 
   "image#desktop": {
     "props": {
       "src": "https://appliancetheme.vteximg.com.br/arquivos/Responsive-Image-Desktop.jpg?q=1",
