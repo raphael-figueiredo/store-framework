@@ -3,7 +3,8 @@
     "children": [
       "breadcrumb",
       "flex-layout.row#main",
-      "flex-layout.row#qty-sku"
+      "flex-layout.row#qty-sku",
+      "shipping-simulator"
     ]
   },
   "flex-layout.row#main": {
@@ -44,8 +45,8 @@
   "flex-layout.row#qty-sku": {
     "children": [
       "sku-selector",
-      "product-quantity"
-            
+      "product-quantity",
+      "shipping-simulator"            
     ]
   }
 }
