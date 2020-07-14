@@ -5,32 +5,19 @@
       "info-card#button-left",
       "shelf",
       "slider-layout#home",
-      "responsive-layout"
+      "responsive-layout",
+      "responsive-layout#desktop",
+      "responsive-layout#mobile"
     ]
   },
-  "responsive-layout.desktop#desktop": {
+  "responsive-layout#desktop": {
     "children": ["image#desktop"]
   },
   
-  "responsive-layout.mobile#mobile": {
+  "responsive-layout#mobile": {
     "children": ["image#mobile"]
   },
-  
-  "rich-text#desktop": {
-    "props": {
-      "text": "# Your Coffee, Your Way \n ### New Coffee Makers Collection",
-      "textPosition": "CENTER",
-      "textAlignment": "CENTER"
-    }
-  },
-  
-  "rich-text#mobile": {
-    "props": {
-      "text": "### Your Coffee, Your Way \n #### New Coffee Makers Collection",
-      "textPosition": "CENTER",
-      "textAlignment": "CENTER"
-    }
-  },
+ 
   "image#desktop": {
     "props": {
       "src": "https://appliancetheme.vteximg.com.br/arquivos/Responsive-Image-Desktop.jpg?q=1",
@@ -50,6 +37,21 @@
       } ,
       "alt": "Coffee Makers Collection",
       "maxWidth": "100%"
+    }
+  },
+  "rich-text#mobile": {
+    "props": {
+      "text": "### Your Coffee, Your Way \n #### New Coffee Makers Collection",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
+    }
+  },
+  
+  "rich-text#desktop": {
+    "props": {
+      "text": "# Your Coffee, Your Way \n ### New Coffee Makers Collection",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
     }
   },
 
